@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+.Event{
+    margin-top:50px;
+    text-align: center;
+    color: #333333;
+}
+.line{
+    grid-area:l;
+    width: 1px;
+    height: 50px;
+    background-color: #333333;
+}
+.Main{
+    font-family: 'Open Sans';
+    display:grid;
+    grid-template-areas: 
+    "T l P";
+    grid-template-columns: 49.9% 0.2% 49.9%;
+}
+.Time {
+    grid-area: T;
+    padding-right: 20px;
+    font-size: 20pt;
+    text-align: right;
+
+}
+.Plan{
+    padding-left: 20px;
+    grid-area:P;
+    font-size: 16pt;
+    text-align: left;
+}
+.point {
+    margin: auto;
+    margin-top:40px;
+    width: 10px; 
+    height: 10px;
+    background: #333333;
+    border-radius: 50%;
+    }

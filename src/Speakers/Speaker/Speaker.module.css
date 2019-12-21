@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+.Speakers
+{
+    margin-top: 0px;
+    display:grid;
+    grid-template-areas: 
+    "Sp1 Sp1"
+    "Sp2 Sp3"
+    "Sp4 Sp5";
+    grid-gap: 0px;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    color: #333333;
+}
+.Sp1
+{
+    height: 328px;
+    grid-area: Sp1;
+    display:grid;
+    grid-template-areas: 
+    "sp1 box";
+    grid-template-columns: 1fr 5fr;
+
+}
+.Sp2
+{
+    height: 320px;
+    grid-area: Sp2; 
+    display:grid;
+    grid-template-areas: 
+    "sp1 boxx";
+    grid-template-columns: 1fr 4fr;
+}
+.Sp3
+{   height: 200px;
+    grid-area: Sp3;
+    display:grid;
+    grid-template-areas: 
+    "sp1 boxx";
+    grid-template-columns: 1fr 4fr;  
+
+}
+.Sp4
+{
+    height: 200px;
+    grid-area: Sp4; 
+    display:grid;
+    grid-template-areas: 
+    "boxx sp1";
+    grid-template-columns: 4fr 1fr; 
+}
+.Sp5
+{
+    height: 200px;
+    grid-area: Sp5;  
+    display:grid;
+    grid-template-areas: 
+    "box sp1";
+    grid-template-columns: 4fr 1fr;
+}
+.image{
+    filter: brightness(90%);
+    grid-area: sp1;
+}
+.box{
+    text-align: center;
+    grid-area: box;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 21pt;
+    background-color: #fff1e2;
+}
+.boxx{
+
+    text-align: center;
+    grid-area: boxx;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 21pt;
+    background-color:white;
+}
+.image img:hover { filter: brightness(110%); }
+    .Name1{
+        padding-top: 60px;
+        font-weight: 500;
+        font-size: 21pt;
+    }
+    .Name{
+        padding-top: 60px;
+        font-weight: 500;
+        font-size: 21pt;
+    }
+    .description{
+        padding-top: 20px;
+        font-weight: 300;
+        font-size: 14pt;
+    }
+    .line{
+        margin-top: 40px;
+        margin-left:550px;
+        background-color:  #333333;
+        height: 1px;
+        width: 150px;
+    }
+    .line1{
+        margin-top: 40px;
+        margin-left:250px;
+        background-color:  #333333;
+        height: 1px;
+        width: 150px;
+    }

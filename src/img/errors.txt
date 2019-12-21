@@ -1,0 +1,1 @@
+[2019-12-21 15:44:28] layer "slide.img": Unsupported extension: img

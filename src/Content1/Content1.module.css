@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+.Content{
+    height: 1000px;
+    background-image: url(../img/bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:white;
+     font-family: 'Calistoga';
+}
+.bag{
+    padding-top: 150px;
+    margin-left: 50px;
+    font-size:74pt;
+}
+.bag .description{
+    font-family: 'Open Sans';
+    font-size:25pt;
+}
+.bag .line{
+    margin-top: 20px;
+    background-color: white;
+    height: 1px;
+    width: 70px;
+}
+.AdditionInformation{
+    margin-top:20px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 20pt;
+}
+.bag .button1 {
+    margin-left: 150px;
+    display: inline-block;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-family: 'Calistoga';
+    font-size: 20pt;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    padding: .5em 2em;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+a.button1:hover { background: rgba(255,255,255,.2); }
+a.button1:active { background: white; }
