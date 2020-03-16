@@ -1,24 +1,25 @@
 
 .bg {
+    position: relative;
     background-color: #333333;
     opacity: 70;
-    height: 97px;
+    height: 3.5em;
     width: 100%;
+    margin: auto 0;
+
 }
 ul {
-    margin-top: 35px;
     position: absolute;
-    right: 40px;
+    right: 5em;
     font-family: 'Montserrat';
     display: flex;
     flex-direction: row;
-    padding-left: 5%;
+    float: right;
     list-style: none; /*убираем маркеры списка*/
   }
   a {
-      padding-left: 0;
       text-decoration: none; /*убираем подчеркивание текста ссылок*/
-      font-size: 14pt;
+      font-size: 10pt;
       color: white;
     }
 ul li {

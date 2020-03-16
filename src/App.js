@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import s from'./App.module.css';
 import Header from './Header/Header';
 import Content1 from './Content1/Content1';
 import Speakers from './Speakers/Speakers';
@@ -11,8 +11,10 @@ import { Element  } from "react-scroll";
 const App=()=> {
   return (
     <div>
+        <div className={s.FirstPage}>
       <Header />
       <Content1 />
+    </div>
       <Element name='speakers'>
       <Speakers />
         </Element>

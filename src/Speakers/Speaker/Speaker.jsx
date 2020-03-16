@@ -11,7 +11,7 @@ const Speaker = () => {
         <div className={classes.Speakers}>
             <span className={classes.Sp1}>
                 <div className={classes.image}>
-                <img src={sp1} />
+                <img src={sp1} className={classes.sp1}/>
                 </div>
                 <div className={classes.box}>
                     <div className={classes.Name}>
@@ -22,8 +22,9 @@ const Speaker = () => {
                         odio. Maecenas porta orci a lorem fermentum.
                     </div>
                     <div className={classes.line}> </div>
-                    <br />
+                    <span className ={classes.Icon} >
                     <a href='#'><img src={icon} /></a>
+                    </span>
                 </div>
             </span>
             <span className={classes.Sp2}>
@@ -40,7 +41,6 @@ const Speaker = () => {
                     vitae vestibulum enim. 
                     </div>
                     <div className={classes.line1}> </div>
-                    <br />
                     <a href='#'><img src={icon} /></a>
                 </div>
             </span>
@@ -58,7 +58,6 @@ const Speaker = () => {
                     cumsan odio. 
                     </div>
                     <div className={classes.line1}> </div>
-                    <br />
                     <a href='#'><img src={icon} /></a>
                 </div>
             </span>
@@ -75,7 +74,6 @@ const Speaker = () => {
                      commodo. Donec vel dignissim orci. 
                     </div>
                     <div className={classes.line1}> </div>
-                    <br />
                     <a href='#'><img src={icon} /></a>
                 </div>
             </span>
@@ -93,7 +91,6 @@ const Speaker = () => {
                      Interdum et malesuada fames ac ante.
                     </div>
                     <div className={classes.line1}> </div>
-                    <br />
                     <a href='#'><img src={icon} /></a>
                 </div>
             </span>

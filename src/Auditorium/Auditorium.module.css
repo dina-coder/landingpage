@@ -1,41 +1,58 @@
 
 .Bg{
+    position: relative;
+    top: 5em;
     text-align: center;
-    margin-top: 100px;
     background-image: url('../img/bgaud.png');
     background-repeat: no-repeat;
-    height: 900px;
+    height: 100vh;
     background-size: cover;
     color: #333333;
 }
 .Contacts {
-    padding-top:270px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 45vh;
 }
 .Title {
+    position: relative;
     font-weight: 800;
-    font-size: 25pt;   
+    font-size:2.5vh;
     font-family: 'Montserrat';
 
 }
 .Location {
-    font-weight: 500;
-    font-size: 14pt;
+    position: relative;
+    font-weight: 900;
+    font-size: 1vh;
     font-style: italic;
     font-family: 'Montserrat';
 
 }
 .Address {
+    position: relative;
     font-family: 'Open Sans';
     font-style: italic;
-    padding-top: 50px;
+    top: 2em;
+    font-weight: normal;
+    font-size: 3vh;
+
 }
 .Phone{
+    position: relative;
     font-family: 'Open Sans';
-    font-size:16pt;
-    padding-top: 50px;
+    font-size:2vh;
+    top: 7em;
+
 }
 .Email{
+    position: relative;
     font-family: 'Open Sans';
     font-style: italic;
-    padding-top: 50px;
+    font-size:3vh;
+    top: 7em;
 }

@@ -1,41 +1,41 @@
 
 .Content{
-    height: 1000px;
-    background-image: url(../img/bg.png);
-     background-repeat: no-repeat;
-     background-size: cover;
+    position: relative;
      color:white;
      font-family: 'Calistoga';
 }
 .bag{
-    padding-top: 150px;
-    margin-left: 50px;
-    font-size:74pt;
+    position: absolute;
+    top: 2em;
+    left: 10%;
+    font-size: 5vw;
 }
 .bag .description{
     font-family: 'Open Sans';
-    font-size:25pt;
+    font-size:2vw;
 }
 .bag .line{
-    margin-top: 20px;
+    position: absolute;
+    top:2em;
     background-color: white;
     height: 1px;
-    width: 70px;
+    width:  2em;
 }
 .AdditionInformation{
-    margin-top:20px;
+    position: absolute;
+    top:7em;
     font-family: 'Open Sans';
     font-weight: 300;
-    font-size: 20pt;
+    font-size: 1.5vw;
 }
 .bag .button1 {
-    margin-left: 150px;
+    position: absolute;
+    top: 8em;
+    left: 4.5em;
     display: inline-block;
     color: white;
-    width: 200px;
-    height: 40px;
     font-family: 'Calistoga';
-    font-size: 20pt;
+    font-size: 2vw;
     text-decoration: none;
     user-select: none;
     outline: none;

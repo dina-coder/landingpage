@@ -1,23 +1,31 @@
 
-
 .Bg{
+    position: relative;
+    top: 5em;
     background-color: #fff1e2;
-    height: 200px;
+    height: 25vh;
     color: #333333;
     text-align:center;
 }
 .Title {
+    position: relative;
 font-family: 'Calistoga';
-font-size: 50pt;
-
-padding-top:15px;
+font-size: 6vh;
+    top:0.5em;
 }
 .Description {
+    position: relative;
+    top: 0.7em;
     font-family:'Open Sans';
     font-style: italic;
-    font-size:14pt;
+    font-size: 4vh;
+}
+.IconContainer{
+    position: CENTER;
+padding-right: 6em;
 }
 a img{
-    padding-top: 25px;
-    padding-left: 10px;
+    padding-top: 30px;
+    padding-left: 6em;
+    height: 3.5vh;
 }

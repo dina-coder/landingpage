@@ -6,8 +6,9 @@
 }
 .line{
     grid-area:l;
-    width: 1px;
-    height: 50px;
+    width: 2px;
+    height: 3em;
+    min-height: 100px;
     background-color: #333333;
 }
 .Main{
@@ -20,14 +21,14 @@
 .Time {
     grid-area: T;
     padding-right: 20px;
-    font-size: 20pt;
+    font-size: 4vh;
     text-align: right;
 
 }
 .Plan{
     padding-left: 20px;
     grid-area:P;
-    font-size: 16pt;
+    font-size: 4vh;
     text-align: left;
 }
 .point {

@@ -10,9 +10,11 @@ const Footer = () => {
         <div className={classes.Bg}>
             <div className={classes.Title}>THE CONFERENCE</div>
             <div className={classes.Description}>become a part of the best event in this world</div>
+            <div className={classes.IconContainer}>
             <a href='#'><img src={twitter}/></a>
             <a href='#'><img src={facebook} /></a>
             <a href='#'><img src={email}/></a>
+            </div>
         </div>
     )
 }
